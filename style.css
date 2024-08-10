@@ -1,0 +1,81 @@
+body {
+    background: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.foxzz {
+    color: black;
+    background: white;
+    border-radius: 10px;
+    font-size: 40px;
+    transition: background-color, border-color, font-size, color 0.3s ease;
+    transition: transform 0.5s;
+}
+
+.foxzz:hover {
+    background-color: purple;
+    border-color: purple;
+    transform: scale(1.15);
+    font-size: 41px;
+    color: white;
+}
+
+.insta {
+    font-size: 25px;
+    border-radius: 10px;
+    transition: background-color, border-color 0.3s ease;
+}
+
+.insta:hover {
+    background-color: rgb(153, 31, 102);
+    border-color: blueviolet;
+}
+
+.pinstap {
+    color: white;
+    font-size: 25px;
+}
+
+.UAS {
+    color: black;
+    background-color: white;
+    bottom: 0;
+    font-size: 40px;
+    border-radius: 10px;
+    transition: background-color, color 0.3s ease;
+    transition: transform 0.5s;
+}
+
+.UAS:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.15);
+}
+
+.depre {
+    cursor: progress;
+    transition: background-color, border-color 0.3s ease;
+}
+
+.depre:hover {
+    background-color: black;
+    border-color: black;
+}
+
+/* Â© Foxzz Developments
+All Copyrights are reserverds. 2020 */
